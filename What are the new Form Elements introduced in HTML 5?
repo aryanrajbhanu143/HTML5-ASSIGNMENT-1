@@ -1,0 +1,15 @@
+There are a number of new form elements has been introduced in HTML 5 as follows:
+
+datalist provides functionality for auto-complete feature.
+datetime facilitate selecting a datetime along with Time Zone.
+output represents the result of a calculation.
+keygen generates a key-pair field in a form to implement secure authentication.
+date is an input field for date and applies validation accordingly.
+month for selecting a month and year in a form input field.
+week for selecting a week and year in an input field.
+time is an input field for selecting time i.e. Hours:Minutes: AM/PM. For example, 10:30 AM.
+color is an input field for color.
+number that only allows numeric values.
+range is an input field for selecting value within a specified range.
+email is input field for email with standard email validations.
+url is for an URL(Uniform Resource Locator) and validated accordingly.

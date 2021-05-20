@@ -1,0 +1,21 @@
+<canvas> is an element in HTML5 which we can use to draw graphics with the help of scripting (which is most probably JavaScript).
+This element behaves like a container for graphics and rest of things will be done by scripting. We can draw images, graphs and a bit of animations etc using <canvas> element.
+
+<canvas id=”canvas1″ width=”300″ height=”100″>
+</canvas>
+As canvas is considered to be the most exciting feature in HTML5, following resources can be helpful to ehnance one’s skill in this area. I have listed few good websites on HTML5 canvas as well as available tools and libraries:
+
+Canvas From Scratch
+Starting from scratch and follow the step by step approach to take to advance level.
+Introduction to Canvas in HTML5
+Understanding advanced Drawing Topics
+Tranformation, Shadows and Gradients in HTML5 Canvas
+and finally Pixel Manipulation in Canvas
+Mozilla Developer Network – MDN
+MDN acts a complete reference guide for HTML5 with detailed examples and code snippets.
+HTML5 Canvas Tutorial
+Canvas Tutorial is a good tutorial site for learning basics of HTML5 canvas topics including Lines, Curves, Paths, Shapes, Filling Styles, Images, Text Manipulation, Tranformation, Composites and Animation etc.
+PlayCanvas
+PlayCanvas is basically a WebGL Game Engine with a set of developer tools that can be used to develop 3D games for browser as well as mobiles.
+For a more detailed reference to HTML5 Canvas resource, you can go to Emily Heming’s tutorial on this blog
+“Top 20 Resources You Need To Master HTML5 Canvas“.

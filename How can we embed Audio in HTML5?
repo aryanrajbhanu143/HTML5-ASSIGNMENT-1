@@ -9,3 +9,12 @@ Below is the most simple way to embed an audio file on a web page.
     <source src=”jamshed.mp3″ type=”audio/mpeg”>
     Your browser does’nt support audio embedding feature.
 </audio>
+In above code, src value can be relative as well as absolute URL. We can also use multiple <source> elements pointing to different audio files. There are more new attributes for <audio> tag other than src as below:
+
+controls – it adds controls such as volume, play and pause.
+autoplay – it’s a boolean value which specifies that audio will start playing once it’s ready.
+loop – it’s also a boolean value which specifies looping (means it automatically start playing after it ends).
+preload – auto, metadata and none are the possible values for this attribute.
+auto means plays as it loaded.
+metadata displays audio file’s associated data
+none means not pre-loaded.

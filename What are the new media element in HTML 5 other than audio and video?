@@ -1,0 +1,18 @@
+HTML 5 has strong support for media. Other than audio and video tags, it comes with the following tags:
+
+<embed> Tag: <embed> acts as a container for external application or some interactive content such as a plug-in. Special about <embed> is that it doesn’t have a closing tag as we can see below:
+
+<embed type=”video/quicktime” src=”Fishing.mov”>
+<source> Tag: <source> is helpful for multiple media sources for audio and video.
+
+<video width=”450″ height=”340″ controls>
+     <source src=”jamshed.mp4″ type=”video/mp4″>
+     <source src=”jamshed.ogg” type=”video/ogg”>
+</video>
+<track> Tag: <track> defines text track for media like subtitles as:
+<video width=”450″ height=”340″ controls>
+     <source src=”jamshed.mp4″ type=”video/mp4″>
+     <source src=”jamshed.ogg” type=”video/ogg”>
+     <track kind=”subtitles” label=”English” src=”jamshed_en.vtt” srclang=”en” default></track>
+      <track kind=”subtitles” label=”Arabic” src=”jamshed_ar.vtt” srclang=”ar”></track>
+</video>

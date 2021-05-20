@@ -1,0 +1,37 @@
+One of the key feature of HTML 5 is “Application Cache” that enables us to make an offline version of a web application. It allows to fetch few or all of website contents such as HTML files, CSS, images, javascript etc locally. This feature speeds up the site performance. This is achieved with the help of a manifest file defined as follows:
+
+<!doctype html>
+<html manifest="example.appcache">
+.....
+</html>
+1
+2
+3
+4
+<!doctype html>
+<html manifest="example.appcache">
+.....
+</html>
+As compared with traditional browser caching, Its not compulsory for the user to visit website
+contents to be cached.
+
+In order to achieve Application Cache feature in HTML5, a manifest file is used as follows:
+
+<!doctype html>
+<html manifest=”test.appcache”>
+…..
+</html>
+1
+2
+3
+4
+<!doctype html>
+<html manifest=”test.appcache”>
+…..
+</html>
+Manifest file is basically a text file that dictates what needs to be cache or not if Application Cache is enabled. Followings are the four main sections of a manifest file where CACHE MANIFEST is the only required section:
+
+CACHE MANIFEST
+CACHE
+NETWORK
+FALLBACK

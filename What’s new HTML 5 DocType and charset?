@@ -1,0 +1,4 @@
+Normally for HTML files first line of code is DocType which basically tells browser about specific version of HTML. HTML5 is now not subset of SGML. As compared to previous version/standards of HTML, DocType is simplified as follows:
+                  <!doctype html>
+And HTML 5 uses UTF-8 encoding as follows:
+                 <meta charset=”UTF-8″>

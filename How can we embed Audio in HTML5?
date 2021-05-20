@@ -1,0 +1,11 @@
+HTML 5 comes with a standard way of embedding audio files as previously we don’t have any such support on a web page. Supported audio formats are as follows:
+
+MP3
+Wav
+Ogg.
+Below is the most simple way to embed an audio file on a web page.
+
+<audio controls>
+    <source src=”jamshed.mp3″ type=”audio/mpeg”>
+    Your browser does’nt support audio embedding feature.
+</audio>
